@@ -1,0 +1,12 @@
+D:\PERSONAL\ICIT\ICIT.Infrastructure\bin\Debug\net8.0\ICIT.Infrastructure.deps.json
+D:\PERSONAL\ICIT\ICIT.Infrastructure\bin\Debug\net8.0\ICIT.Infrastructure.dll
+D:\PERSONAL\ICIT\ICIT.Infrastructure\bin\Debug\net8.0\ICIT.Infrastructure.pdb
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.AssemblyInfoInputs.cache
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.AssemblyInfo.cs
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.sourcelink.json
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.dll
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\refint\ICIT.Infrastructure.dll
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ICIT.Infrastructure.pdb
+D:\PERSONAL\ICIT\ICIT.Infrastructure\obj\Debug\net8.0\ref\ICIT.Infrastructure.dll

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICIT.Web", "ICIT.Web\ICIT.Web.csproj", "{9115CA6E-C316-4B11-9756-E2C74557DC04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICIT.Infrastructure", "ICIT.Infrastructure\ICIT.Infrastructure.csproj", "{6925C2FD-5502-4C83-BBA1-9FFD7BAA84CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICIT.Infrastructure", "ICIT.Infrastructure\ICIT.Infrastructure.csproj", "{6925C2FD-5502-4C83-BBA1-9FFD7BAA84CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICIT.Application", "ICIT.Application\ICIT.Application.csproj", "{53982406-226E-4E2F-BDFD-C3697A7D14D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6925C2FD-5502-4C83-BBA1-9FFD7BAA84CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6925C2FD-5502-4C83-BBA1-9FFD7BAA84CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6925C2FD-5502-4C83-BBA1-9FFD7BAA84CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53982406-226E-4E2F-BDFD-C3697A7D14D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53982406-226E-4E2F-BDFD-C3697A7D14D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53982406-226E-4E2F-BDFD-C3697A7D14D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53982406-226E-4E2F-BDFD-C3697A7D14D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

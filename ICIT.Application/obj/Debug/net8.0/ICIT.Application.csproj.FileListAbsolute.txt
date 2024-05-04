@@ -1,0 +1,16 @@
+D:\PERSONAL\ICIT\ICIT.Application\bin\Debug\net8.0\ICIT.Application.deps.json
+D:\PERSONAL\ICIT\ICIT.Application\bin\Debug\net8.0\ICIT.Application.dll
+D:\PERSONAL\ICIT\ICIT.Application\bin\Debug\net8.0\ICIT.Application.pdb
+D:\PERSONAL\ICIT\ICIT.Application\bin\Debug\net8.0\ICIT.Infrastructure.dll
+D:\PERSONAL\ICIT\ICIT.Application\bin\Debug\net8.0\ICIT.Infrastructure.pdb
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.csproj.AssemblyReference.cache
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.AssemblyInfoInputs.cache
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.AssemblyInfo.cs
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.csproj.CoreCompileInputs.cache
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.sourcelink.json
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.App.BC3746D6.Up2Date
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.dll
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\refint\ICIT.Application.dll
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ICIT.Application.pdb
+D:\PERSONAL\ICIT\ICIT.Application\obj\Debug\net8.0\ref\ICIT.Application.dll

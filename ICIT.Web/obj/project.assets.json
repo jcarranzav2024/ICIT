@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ICIT.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ICIT.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ICIT.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ICIT.Application.dll": {}
+        }
+      },
+      "ICIT.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ICIT.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ICIT.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ICIT.Application/1.0.0": {
+      "type": "project",
+      "path": "../ICIT.Application/ICIT.Application.csproj",
+      "msbuildProject": "../ICIT.Application/ICIT.Application.csproj"
+    },
+    "ICIT.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ICIT.Infrastructure/ICIT.Infrastructure.csproj",
+      "msbuildProject": "../ICIT.Infrastructure/ICIT.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ICIT.Application >= 1.0.0",
+      "ICIT.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MR.WICK\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PERSONAL\\ICIT\\ICIT.Application\\ICIT.Application.csproj": {
+              "projectPath": "D:\\PERSONAL\\ICIT\\ICIT.Application\\ICIT.Application.csproj"
+            },
+            "D:\\PERSONAL\\ICIT\\ICIT.Infrastructure\\ICIT.Infrastructure.csproj": {
+              "projectPath": "D:\\PERSONAL\\ICIT\\ICIT.Infrastructure\\ICIT.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

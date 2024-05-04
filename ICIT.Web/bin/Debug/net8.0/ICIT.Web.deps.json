@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ICIT.Web/1.0.0": {
+        "dependencies": {
+          "ICIT.Application": "1.0.0",
+          "ICIT.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ICIT.Web.dll": {}
+        }
+      },
+      "ICIT.Application/1.0.0": {
+        "dependencies": {
+          "ICIT.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ICIT.Application.dll": {}
+        }
+      },
+      "ICIT.Infrastructure/1.0.0": {
+        "runtime": {
+          "ICIT.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ICIT.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICIT.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICIT.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
