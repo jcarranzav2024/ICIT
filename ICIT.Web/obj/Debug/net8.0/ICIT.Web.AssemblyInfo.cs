@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ICIT.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c821155e642e9d3a68a33a2caabaf5864e830965")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec627c8a075dd8be177f93aa3e91a69d6dad9595")]
 [assembly: System.Reflection.AssemblyProductAttribute("ICIT.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ICIT.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

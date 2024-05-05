@@ -6,7 +6,7 @@
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ICIT</a>
+            <a class="navbar-brand" style="margin-left:25px" asp-area="" asp-controller="Home" asp-action="Index">ICIT</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -20,16 +20,83 @@
                 <li class="nav-item">
                     <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">
+                        <i class="fas fa-bell"></i> <!-- Ícono de campana -->
+                    </a>
+                </li>
+                <div class="navbar-nav">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownUser" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="~/images/profile/profile1.jpg" alt="Imagen de usuario" class="rounded-circle" style="width: 32px; height: 32px;">
+                            </a>
+                            <!-- Menú desplegable para opciones de usuario -->
+                            <ul class="dropdown-menu dropdown-menu-end bg-dark text-light" aria-labelledby="navbarDropdownUser">
+                                <!-- Opciones de usuario aquí (por ejemplo, cerrar sesión, perfil, etc.) -->
+                               @*  <li><a class="dropdown-item text-light" href="@Url.Action("Index", "Evaluacion")">Evaluación</a></li> *@
+
+                                <li><a class="dropdown-item text-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Tema</a></li>
+
+                                <li><hr class="dropdown-divider text-light"></li>
+                                <li><a class="nav-link text-light" asp-area="" asp-controller="Login" asp-action="LogOff">Cerrar sesión</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </ul>
         </div>
+
     </div>
 </nav>
 
 
 <div id="mySidenav" class="sidenav">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a class="menu-header text-info p-1"><span class="text-header">Inventario</span></a>   
+    <a href="#"><span class="icon"><i class="fas fa-chart-line"></i></span><span class="text">Activos</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-cogs"></i></span><span class="text">Accesorios</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-cube"></i></span><span class="text">Componentes</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-laptop"></i></span><span class="text">Software</span></a>
+    <hr class="divider">
+    <a class="menu-header text-info text"><span class="text-header">Mantenimientos</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-chart-line"></i></span><span class="text">Categoría</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-cogs"></i></span><span class="text">Proveerdor</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-cube"></i></span><span class="text">Área</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-laptop"></i></span><span class="text">Modelo</span></a>
+    <hr class="divider">
+    <a class="menu-header text-info text"><span class="text-header">Reportes</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-chart-line"></i></span><span class="text">Activos</span></a>
+    <a href="#"><span class="icon"><i class="fas fa-cogs"></i></span><span class="text">Accesorios</span></a>    
 </div>
+
+
+<!-- Offcanvas -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Seleccione el tema</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div id="themeOptions" class="offcanvas-body">
+        <a class="dropdown-item" href="#" data-theme="bg-dark">
+            <span class="theme-circle" style="background-color: #343a40;"></span>
+            Dark
+        </a>
+        <a class="dropdown-item" href="#" data-theme="bg-light">
+            <span class="theme-circle" style="background-color: #f8f9fa;"></span>
+            Light
+        </a>
+        <a class="dropdown-item" href="#" data-theme="bg-primary">
+            <span class="theme-circle" style="background-color: #007bff;"></span>
+            Primary
+        </a>
+        <a class="dropdown-item" href="#" data-theme="bg-secondary">
+            <span class="theme-circle" style="background-color: #6c757d;"></span>
+            Secondary
+        </a>
+    </div>
+</div>
+
 

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\images\\profile\\profile1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\profile1.jpg"
+    },
+    {
       "Id": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\js\\sidemenu.js",
       "PackagePath": "staticwebassets\\js\\sidemenu.js"
     },

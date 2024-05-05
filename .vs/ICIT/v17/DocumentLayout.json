@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\PERSONAL\\ICIT\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9115CA6E-C316-4B11-9756-E2C74557DC04}|ICIT.Web\\ICIT.Web.csproj|d:\\personal\\icit\\icit.web\\views\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9115CA6E-C316-4B11-9756-E2C74557DC04}|ICIT.Web\\ICIT.Web.csproj|solutionrelative:icit.web\\views\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9115CA6E-C316-4B11-9756-E2C74557DC04}|ICIT.Web\\ICIT.Web.csproj|d:\\personal\\icit\\icit.web\\wwwroot\\css\\sidemenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9115CA6E-C316-4B11-9756-E2C74557DC04}|ICIT.Web\\ICIT.Web.csproj|solutionrelative:icit.web\\wwwroot\\css\\sidemenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9115CA6E-C316-4B11-9756-E2C74557DC04}|ICIT.Web\\ICIT.Web.csproj|d:\\personal\\icit\\icit.web\\wwwroot\\js\\sidemenu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9115CA6E-C316-4B11-9756-E2C74557DC04}|ICIT.Web\\ICIT.Web.csproj|solutionrelative:icit.web\\wwwroot\\js\\sidemenu.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sidemenu.js",
+              "DocumentMoniker": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\js\\sidemenu.js",
+              "RelativeDocumentMoniker": "ICIT.Web\\wwwroot\\js\\sidemenu.js",
+              "ToolTip": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\js\\sidemenu.js",
+              "RelativeToolTip": "ICIT.Web\\wwwroot\\js\\sidemenu.js",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-05T02:39:43.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sidemenu.css",
+              "DocumentMoniker": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\css\\sidemenu.css",
+              "RelativeDocumentMoniker": "ICIT.Web\\wwwroot\\css\\sidemenu.css",
+              "ToolTip": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\css\\sidemenu.css",
+              "RelativeToolTip": "ICIT.Web\\wwwroot\\css\\sidemenu.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T02:07:26.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Menu.cshtml",
+              "DocumentMoniker": "D:\\PERSONAL\\ICIT\\ICIT.Web\\Views\\Shared\\_Menu.cshtml",
+              "RelativeDocumentMoniker": "ICIT.Web\\Views\\Shared\\_Menu.cshtml",
+              "ToolTip": "D:\\PERSONAL\\ICIT\\ICIT.Web\\Views\\Shared\\_Menu.cshtml",
+              "RelativeToolTip": "ICIT.Web\\Views\\Shared\\_Menu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T02:06:56.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

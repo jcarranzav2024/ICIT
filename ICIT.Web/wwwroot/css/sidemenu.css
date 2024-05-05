@@ -9,11 +9,13 @@
     background-color: #212529ff; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.9s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+    min-width: 80px; /* Ajusta este valor según sea necesario */
 }
 
-    /* The navigation menu links */
-    .sidenav a {
+
+ /* The navigation menu links */
+.sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 20px;
@@ -21,12 +23,12 @@
         display: block;
         transition: 5.3s;
         text-align: justify-all;
-    }
+}
 
-        /* When you mouse over the navigation links, change their color */
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
 
 /* Style page content - use this if you want to move the icon menu */
 .nav-menuClass {
@@ -40,15 +42,74 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 765px) {
     .sidenav {
         padding-top: 15px;
+        
     }
 
-        .sidenav a {
-            font-size: 18px;
-        }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
+
+
+@media screen and (max-width: 765px) {
+    .sidenav {
+        margin-top: 53px;
+        min-width: 0px;
+    }
+}
+
+@media screen and (min-width: 766px) {
+    .sidenav {
+        margin-top: 63px;
+      
+    }
+}
+
+/* Define el estilo para los iconos */
+.sidenav a .icon {
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+
+.sidenav a {
+    position: relative;
+}
+
+.sidenav a .text {
+    position: absolute;
+    left: 70px; /* Ajusta el valor según sea necesario */
+    top: 7px;
+    display: none;
+}
+
+.sidenav.expanded a .text {
+    display: block;
+}
+
+.sidenav a .text-header {
+    left: 10px; /* Ajusta el valor según sea necesario */
+    top: 7px;
+    display: none;
+}
+.sidenav.expanded a .text-header {
+    display: block;
+}
+
+.menu-header {
+    text-align: center;    
+    color: #fff; /* Color del texto del encabezado */
+}
+
+.divider {
+
+    border-top: 2px solid #333; /* Color y estilo del divisor */
+    margin: 10px 0; /* Espaciado alrededor del divisor */
+}
+
 
 .container {
     display: inline-block;
@@ -77,6 +138,5 @@
 .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
 }
-
 
 

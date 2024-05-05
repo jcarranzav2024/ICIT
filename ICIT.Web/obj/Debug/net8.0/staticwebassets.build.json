@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gkMnthqoyrl1ORn/ywDkyJrf4xAeM4l7GYQkZ4fENVc=",
+  "Hash": "2UudS/GLa1pI0Lp6rRY3wU4VQs7hmUBxSz8mbRRALbw=",
   "Source": "ICIT.Web",
   "BasePath": "_content/ICIT.Web",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\images\\profile\\profile1.jpg",
+      "SourceId": "ICIT.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\",
+      "BasePath": "_content/ICIT.Web",
+      "RelativePath": "images/profile/profile1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile\\profile1.jpg"
     },
     {
       "Identity": "D:\\PERSONAL\\ICIT\\ICIT.Web\\wwwroot\\js\\sidemenu.js",
