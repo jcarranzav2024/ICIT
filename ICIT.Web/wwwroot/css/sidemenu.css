@@ -1,4 +1,15 @@
-﻿/* The side navigation menu */
+﻿/* Estilo para los iconos en estado normal */
+.navbar-nav .nav-item .nav-link i {
+    transition: color 0.3s ease; /* Transición suave de color */
+}
+
+    /* Estilo para los iconos cuando se coloca el mouse sobre ellos */
+    .navbar-nav .nav-item .nav-link i:hover {
+        color: #ffd800; /* Cambia el color del icono cuando se coloca el mouse sobre él */
+    }
+
+
+/* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -74,10 +85,14 @@
     margin-right: 20px;
    
 }
+.sidenav a:hover .icon {
+    color: white; /* Cambia el color del texto a blanco al pasar el mouse sobre el enlace */
+}
 
 .sidenav a {
-    position: relative;
+    position: relative;    
 }
+
 
 .sidenav a .text {
     position: absolute;
@@ -90,6 +105,10 @@
     display: block;
 }
 
+.sidenav a:hover .text {
+    color: white; /* Cambia el color del texto a blanco al pasar el mouse sobre el enlace */
+}
+
 .sidenav a .text-header {
     left: 10px; /* Ajusta el valor según sea necesario */
     top: 7px;
@@ -97,11 +116,6 @@
 }
 .sidenav.expanded a .text-header {
     display: block;
-}
-
-.menu-header {
-    text-align: center;    
-    color: #fff; /* Color del texto del encabezado */
 }
 
 .divider {
